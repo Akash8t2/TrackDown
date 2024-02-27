@@ -1,0 +1,25 @@
+{
+   "name": " Ak-camera",
+   "description": "Telegram Bot",
+   "repository": "https://github.com/Akash8t2/",
+   "logo": "",
+   "image": "heroku/python",
+   "env": {
+      "KEY": {
+        "description": "KEY",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "BOT_TOKEN",
+        "value": "",
+        "required": true  
+      }
+   },
+   "formation": {
+            "worker": {
+                "quantity": 1,
+                "size": "eco"
+            }
+        }
+  }
